@@ -36,4 +36,4 @@ url: 'https://<DOMAIN>.zendesk.com/api/v2/users.json'
 3-Install the request package 
    npm i request
    
-4-Run the filesin cmd node <file name>
+4-Run the files in cmd node <file name>
