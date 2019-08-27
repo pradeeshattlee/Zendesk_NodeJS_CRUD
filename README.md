@@ -29,8 +29,11 @@ If authenticating over HTTP, url-encode the slash character in {email_address}/t
 # USAGE 
 1-Change the Domain to your domain 
 url: 'https://<DOMAIN>.zendesk.com/api/v2/users.json'
+  
 2-Change the <User ID> and <Your api Token> with yours
   authorization: 'Basic ' + Buffer.from("<User ID>/token:<Your api Token>").toString('base64'),
+  
 3-Install the request package 
-  # npm i request
+   npm i request
+   
 4-Run the filesin cmd node <file name>
