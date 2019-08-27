@@ -27,11 +27,9 @@ curl https://obscura.zendesk.com/api/v2/users.json \
 If authenticating over HTTP, url-encode the slash character in {email_address}/token as %2F.
 
 # USAGE 
-1-Change the Domain to your domain 
-url: 'https://"DOMAIN".zendesk.com/api/v2/users.json'
-  
-2-Change the <User ID> and <Your api Token> with yours
-  authorization: 'Basic ' + Buffer.from(""User ID"/token:"Your api Token"").toString('base64'),
+1-Change the Domain to your domain in url
+
+2-Change the "User ID" and "your api Token" in authorization: 
   
 3-Install the request package 
    npm i request
